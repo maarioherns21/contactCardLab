@@ -1,0 +1,67 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  display: grid;
+  margin: 0;
+  font-family: Helvetica;
+  background-color: #255252;
+  border: 1px solid ;
+  height: 435px;
+  width: 260px;
+}
+img {
+  border-radius: 50%;
+  border: 2px double #7fc98e;
+  margin: auto;
+}
+
+nav {
+  display: flex;
+  justify-content: flex-end;
+  background-color: #ffffff;
+  color: #cbcbcb;
+}
+
+aside {
+  text-align: center;
+  background-color: #ffffff;
+}
+
+main {
+  text-align: center;
+  background-color: #ffffff;
+}
+main > div{
+  background-color: #f3f3f3;
+  padding-top: 12px;
+  padding-bottom: 1px;
+}
+.contactRating {
+  color: #eed56a
+}
+p{
+  color: black;
+}
+ 
+footer {
+  text-align: center;
+  background-color: #74ba82;
+}
+
+footer > button {
+
+  border: 0px;
+     width: 125px;
+     height: 75px;
+     margin: auto;
+}
+.phone {
+  background-color: #82cd8f;
+}
+
+.message {
+  background-color: #74ba82;
+
+}
